@@ -1,0 +1,19 @@
+{
+    "name": "ppiian/thinkphp-factory",
+      "authors": [
+        {
+            "name": "panyian",
+            "email": "ppiian@126.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "symfony/finder": "^5.0",
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\Faker\\": "src/"
+        }
+    }
+}
